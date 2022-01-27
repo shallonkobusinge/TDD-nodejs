@@ -1,5 +1,5 @@
 const { expect } = require("chai")
-const helloExample = require('../src/app/service/helloWorld');
+const helloExample = require('../app/service/helloWorld');
 
 describe('sayHello ', () => {
     it("should be a function", () => {
